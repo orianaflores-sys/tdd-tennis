@@ -206,9 +206,31 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2017652688722db3649831ec794cc16c6659e298",
     "commitName": "feat: jugador 1 anota 3 veces",
     "commitTimestamp": 1772115509279,
     "testId": 5
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1772115576945,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1772116275030,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: terminando la clase..",
+    "commitTimestamp": 1772116300805,
+    "testId": 6
   }
 ]
