@@ -28,14 +28,20 @@ describe("Tennis Scorer", () => {
     expect(tennis.score()).toEqual("40 - Love");
   });
 
-  /*it("jugador 1 anota 4 veces jugador dos en cero", () => {
+  it("jugador 1 anota 4 veces jugador dos en cero", () => {
     let tennis = new Tennis();
     tennis.player1Scores();
     tennis.player1Scores();
     tennis.player1Scores();
     tennis.player1Scores();
     expect(tennis.score()).toEqual("Game for player 1");
-  });*/
+  });
+  
+  it("jugador 2 anota 1 vez jugador 1 en cero", () => {
+  let tennis = new Tennis();
+  tennis.player2Scores();
+  expect(tennis.score()).toEqual("Love - 15");
+});
 
 });
 

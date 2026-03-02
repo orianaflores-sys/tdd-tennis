@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "eafb634edabc30e3087647172a71cab40ccccfd6",
     "author": "israel antezana",
     "commit": {
       "date": "2026-02-26T14:38:47.000Z",
       "message": "doc: documentacion sobre el diseno",
-      "url": "https://github.com/israelantezana/2026-1-TennisTDD/commit/HEAD"
+      "url": "https://github.com/israelantezana/2026-1-TennisTDD/commit/eafb634edabc30e3087647172a71cab40ccccfd6"
     },
     "stats": {
       "total": 8,
@@ -150,5 +150,24 @@
     "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-02T19:57:55.000Z",
+      "message": "fix: jugar 1 anota 4 veces",
+      "url": "https://github.com/orianaflores-sys/tdd-tennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 37,
+      "additions": 15,
+      "deletions": 22,
+      "date": "2026-03-02"
+    },
+    "coverage": 100,
+    "test_count": 7,
+    "failed_tests": 1,
+    "conclusion": "failure"
   }
 ]
