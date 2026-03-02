@@ -304,12 +304,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "22dc0f057d49daceeac99c299f2667f1558d402f",
     "author": "User",
     "commit": {
       "date": "2026-03-02T20:31:55.000Z",
       "message": "fix: desde Deuce, jugador 1 anota y queda Advantage for Player 1",
-      "url": "https://github.com/orianaflores-sys/tdd-tennis/commit/HEAD"
+      "url": "https://github.com/orianaflores-sys/tdd-tennis/commit/22dc0f057d49daceeac99c299f2667f1558d402f"
     },
     "stats": {
       "total": 35,
@@ -319,6 +319,25 @@
     },
     "coverage": 100,
     "test_count": 14,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-02T20:35:39.000Z",
+      "message": "fix: desde Advantage player 1, jugador 1 anota y gana el game",
+      "url": "https://github.com/orianaflores-sys/tdd-tennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 26,
+      "additions": 26,
+      "deletions": 0,
+      "date": "2026-03-02"
+    },
+    "coverage": 100,
+    "test_count": 15,
     "failed_tests": 0,
     "conclusion": "success"
   }
