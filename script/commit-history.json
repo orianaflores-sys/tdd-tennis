@@ -380,17 +380,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7b351ce576761b82fa30a9817db3afaccbbd2983",
     "author": "User",
     "commit": {
       "date": "2026-03-02T20:55:06.000Z",
       "message": "fix:si player 1 tiene ventaja y player 2 anota, vuelve a Deuce",
-      "url": "https://github.com/orianaflores-sys/tdd-tennis/commit/HEAD"
+      "url": "https://github.com/orianaflores-sys/tdd-tennis/commit/7b351ce576761b82fa30a9817db3afaccbbd2983"
     },
     "stats": {
       "total": 23,
       "additions": 22,
       "deletions": 1,
+      "date": "2026-03-02"
+    },
+    "coverage": 100,
+    "test_count": 18,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-02T22:28:26.000Z",
+      "message": "fix: index.html and presenter.js",
+      "url": "https://github.com/orianaflores-sys/tdd-tennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 52,
+      "additions": 32,
+      "deletions": 20,
       "date": "2026-03-02"
     },
     "coverage": 100,
