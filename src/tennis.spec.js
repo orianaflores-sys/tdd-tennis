@@ -154,6 +154,27 @@ it("desde Deuce, jugador 2 anota y queda Advantage for player 2", () => {
 });
 
 
+it("desde Advantage player 2, jugador 2 anota y gana el game", () => {
+  let tennis = new Tennis();
+
+  // Deuce (3-3)
+  tennis.player1Scores();
+  tennis.player1Scores();
+  tennis.player1Scores();
+
+  tennis.player2Scores();
+  tennis.player2Scores();
+  tennis.player2Scores();
+
+  // Advantage P2 (3-4)
+  tennis.player2Scores();
+
+  // Gana (3-5)
+  tennis.player2Scores();
+
+  expect(tennis.score()).toEqual("Game for player 2");
+});
+
 });
 
 
