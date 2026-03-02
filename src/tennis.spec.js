@@ -96,6 +96,24 @@ describe("Tennis Scorer", () => {
   expect(tennis.score()).toEqual("Deuce");
   });
 
+  it("desde Deuce, jugador 1 anota y queda Advantage for Player 1", () => {
+  let tennis = new Tennis();
+
+  // Llegar a Deuce (3-3)
+  tennis.player1Scores();
+  tennis.player1Scores();
+  tennis.player1Scores();
+
+  tennis.player2Scores();
+  tennis.player2Scores();
+  tennis.player2Scores();
+
+  // Punto extra de Player 1 (4-3)
+  tennis.player1Scores();
+
+  expect(tennis.score()).toEqual("Advantage for player 1");
+});
+
 });
 
 

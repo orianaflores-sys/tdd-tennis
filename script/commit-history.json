@@ -285,12 +285,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f030767ce4d7029f585a25c1a4ff2f3ae54df0d9",
     "author": "User",
     "commit": {
       "date": "2026-03-02T20:25:49.000Z",
       "message": "fix: ambos jugadores anotan tres vececs es deuce",
-      "url": "https://github.com/orianaflores-sys/tdd-tennis/commit/HEAD"
+      "url": "https://github.com/orianaflores-sys/tdd-tennis/commit/f030767ce4d7029f585a25c1a4ff2f3ae54df0d9"
     },
     "stats": {
       "total": 17,
@@ -300,6 +300,25 @@
     },
     "coverage": 100,
     "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-02T20:31:55.000Z",
+      "message": "fix: desde Deuce, jugador 1 anota y queda Advantage for Player 1",
+      "url": "https://github.com/orianaflores-sys/tdd-tennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 35,
+      "additions": 29,
+      "deletions": 6,
+      "date": "2026-03-02"
+    },
+    "coverage": 100,
+    "test_count": 14,
     "failed_tests": 0,
     "conclusion": "success"
   }

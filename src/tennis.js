@@ -5,17 +5,22 @@ class Tennis {
   }
 
   score() {
-    if (this.player1Points === 4) {
-      return "Game for player 1";
-    }
-    if (this.player2Points === 4) {
-      return "Game for player 2";
-    }
+    if (this.player1Points === 4 && this.player2Points <= 2) {
+        return "Game for player 1";
+     }
 
+    if (this.player2Points === 4 && this.player1Points <= 2) {
+        return "Game for player 2";
+    }
     if (this.player1Points === 3 && this.player2Points === 3) {
         return "Deuce";
     }
 
+    if (this.player1Points === 4 && this.player2Points === 3) {
+        return "Advantage for player 1";
+    }
+
+    
     let player1Score = "Love";
     if (this.player1Points == 1) player1Score = "15";
     if (this.player1Points == 2) player1Score = "30";
