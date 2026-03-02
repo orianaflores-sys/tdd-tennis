@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7339909a20229d76198da6be9ab6cc140c20240b",
     "author": "User",
     "commit": {
       "date": "2026-03-02T20:12:11.000Z",
       "message": "fix: jugador 2 anota 3 veces",
-      "url": "https://github.com/orianaflores-sys/tdd-tennis/commit/HEAD"
+      "url": "https://github.com/orianaflores-sys/tdd-tennis/commit/7339909a20229d76198da6be9ab6cc140c20240b"
     },
     "stats": {
       "total": 13,
@@ -224,6 +224,25 @@
     },
     "coverage": 95.83,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-02T20:16:26.000Z",
+      "message": "fix: jugador 2 anota 4 veces",
+      "url": "https://github.com/orianaflores-sys/tdd-tennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2026-03-02"
+    },
+    "coverage": 100,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }

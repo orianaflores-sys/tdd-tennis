@@ -338,9 +338,55 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7339909a20229d76198da6be9ab6cc140c20240b",
     "commitName": "fix: jugador 2 anota 3 veces",
     "commitTimestamp": 1772482332593,
     "testId": 11
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1772482451549,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1772482475609,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1772482501293,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 1,
+    "numTotalTests": 10,
+    "timestamp": 1772482548157,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1772482563543,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: jugador 2 anota 4 veces",
+    "commitTimestamp": 1772482586822,
+    "testId": 12
   }
 ]
