@@ -83,6 +83,19 @@ describe("Tennis Scorer", () => {
     expect(tennis.score()).toEqual("30 - 30");
   });
 
+  it("ambos jugadores anotan tres veces es Deuce", () => {
+  let tennis = new Tennis();
+  tennis.player1Scores();
+  tennis.player1Scores();
+  tennis.player1Scores();
+
+  tennis.player2Scores();
+  tennis.player2Scores();
+  tennis.player2Scores();
+
+  expect(tennis.score()).toEqual("Deuce");
+  });
+
 });
 
 
