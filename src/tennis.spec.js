@@ -175,6 +175,27 @@ it("desde Advantage player 2, jugador 2 anota y gana el game", () => {
   expect(tennis.score()).toEqual("Game for player 2");
 });
 
+it("si player 1 tiene ventaja y player 2 anota, vuelve a Deuce", () => {
+  let tennis = new Tennis();
+
+  // Deuce (3-3)
+  tennis.player1Scores();
+  tennis.player1Scores();
+  tennis.player1Scores();
+
+  tennis.player2Scores();
+  tennis.player2Scores();
+  tennis.player2Scores();
+
+  // Advantage P1 (4-3)
+  tennis.player1Scores();
+
+  // Player 2 empata (4-4) = Deuce
+  tennis.player2Scores();
+
+  expect(tennis.score()).toEqual("Deuce");
+});
+
 });
 
 

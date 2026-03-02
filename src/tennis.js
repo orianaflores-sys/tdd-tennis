@@ -21,7 +21,7 @@ class Tennis {
         return "Game for player 2";
     }
 
-    if (this.player1Points === 3 && this.player2Points === 3) {
+    if (this.player1Points >= 3 && this.player2Points >= 3 && this.player1Points === this.player2Points) {
         return "Deuce";
     }
 
