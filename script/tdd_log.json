@@ -502,9 +502,31 @@
     "testId": 17
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c9494a6324c98ecc67e0daaa40065d7bf3f5cb59",
     "commitName": "fix: desde Advantage player 1, jugador 1 anota y gana el game",
     "commitTimestamp": 1772483739836,
     "testId": 17
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 1,
+    "numTotalTests": 16,
+    "timestamp": 1772483797565,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1772483841449,
+    "success": true,
+    "testId": 18
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: desde Deuce, jugador 2 anota y queda Advantage for player 2",
+    "commitTimestamp": 1772483866389,
+    "testId": 18
   }
 ]
