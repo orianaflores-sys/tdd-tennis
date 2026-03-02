@@ -264,9 +264,31 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9a641754e3a237826bed6c88654121885753a155",
     "commitName": "fix: jugar 1 anota 4 veces",
     "commitTimestamp": 1772481476140,
     "testId": 8
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1772481557864,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1772481863044,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: jugador 2 anota 1",
+    "commitTimestamp": 1772481910850,
+    "testId": 9
   }
 ]
