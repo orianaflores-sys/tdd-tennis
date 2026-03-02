@@ -74,6 +74,15 @@ describe("Tennis Scorer", () => {
   expect(tennis.score()).toEqual("15 - 15");
   });
 
+  it ("ambos jugadores anotan dos veces", () => {
+    let tennis = new Tennis();
+    tennis.player1Scores();
+    tennis.player1Scores();
+    tennis.player2Scores();
+    tennis.player2Scores();
+    expect(tennis.score()).toEqual("30 - 30");
+  });
+
 });
 
 
